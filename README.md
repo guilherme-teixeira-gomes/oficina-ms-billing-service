@@ -75,3 +75,8 @@ MERCADOPAGO_ACCESS_TOKEN   # opcional — vazio = modo mock
 Pipeline (GitHub Actions): testes + SonarCloud → build/push Docker → deploy no EKS.
 
 Banco **PostgreSQL próprio e isolado** — nenhum outro serviço acessa este banco.
+
+## Documentação da API (Swagger)
+
+Com o serviço rodando, acesse: **http://localhost:3002/api-docs**
+(porta 3000 quando rodando fora do docker-compose)
